@@ -1,0 +1,20 @@
+{
+  "name": "BiomeTest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "author": {
+    "name": "Tomás Soldador",
+    "email": "tomassoldador07@gmail.com",
+    "url": "https://github.com/tomassoldador"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch ./src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "pino-pretty": "^11.2.1"
+  }
+}
